@@ -1,3 +1,6 @@
+# large files 
+images/score_ocr_heads/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
