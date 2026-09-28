@@ -405,7 +405,7 @@ def main():
     from transformers import AutoProcessor
 
     sys.path.insert(0, str(ROOT / "scripts"))
-    from ocr import filter_raw_words, make_imagenet_image
+    from sec2__ocr import filter_raw_words, make_imagenet_image
 
     np.random.seed(args.seed)
     torch.manual_seed(args.seed)

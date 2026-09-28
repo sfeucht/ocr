@@ -24,7 +24,7 @@ from tqdm import tqdm
 from transformers import AutoProcessor 
 from nnsight import VisionLanguageModel 
 from datasets import load_dataset 
-from ocr import filter_raw_words, make_imagenet_image
+from sec2__ocr import filter_raw_words, make_imagenet_image
 
 def prep_inputs(processor, prompt, prefill, images):
     messages = [{
